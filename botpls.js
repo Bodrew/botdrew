@@ -23,7 +23,7 @@ function callback(data) {
   else{}
 	//Execute to turn up! \o/
   if (data.messgae === (".rave")){
-  API.sendChat("@" + data.from + " gettin' turnt up!")
+  API.sendChat("@" + data.from + " gettin' turnt up!");
   API.setVolume(30)}
   else{}
   
