@@ -32,6 +32,10 @@ function callback(data) {
   API.sendChat("Whasian! >:D")
   }
   else{}
+  if (data.message === (".bodlovescookie")){
+  	API.sendChat("@CookieMichal Fuck yeah man, cookies fer dayz")
+  }
+  else {}
   
   //New commands right above here!
 }
