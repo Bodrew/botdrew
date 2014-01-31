@@ -26,6 +26,11 @@ function callback(data) {
   API.sendChat("@" + data.from + " gettin' turnt up!");
   API.setVolume(30)}
   else{}
+  //Beany's insult command ;3
+  if (data.message === (".beany")){
+  API.sendChat("Whasian! >:D")
+  }
+  else{}
   
   //New commands right above here!
 }
