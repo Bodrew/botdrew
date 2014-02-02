@@ -19,13 +19,13 @@ function callback(data) {
   else {}
   //Expressing my love for Miss Bean
   if (data.message === (".bodhartsbeany")){
-  API.sendChat("And she still won't date me :expressionless:")
+  API.sendChat("")
   }
   else{}
   //Execute to turn up! \o/
   if (data.messgae === (".rave")){
-  API.sendChat("@" + data.from + " gettin' turnt up!");
-  API.setVolume(30)}
+  API.sendChat("@" + data.from + " gettin' turnt up!")
+  }
   else{}
   //Beany's insult command ;3
   if (data.message === (".beany")){
@@ -44,4 +44,9 @@ function callback(data) {
   else {}
   
   //New commands right above here!
+}
+  //Testing 
+API.on(API.USER_FAN, callback);
+function callback(user) {
+	API.sendChat("I am most gracious for your click of my flag @" + user.username)
 }
