@@ -48,5 +48,7 @@ function callback(data) {
   //Testing 
 API.on(API.USER_FAN, callback);
 function callback(user) {
-	API.sendChat("I am most gracious for your click of my flag @" + user.username)
+	if (API.USER_FAN === true){
+	API.sendChat("I am most gracious for your click of my flag @" + user.username)}
+	else {}	
 }
