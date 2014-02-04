@@ -19,7 +19,7 @@ function callback(data) {
   else {}
   //Expressing my love for Miss Bean
   if (data.message === (".bodhartsbeany")){
-  API.sendChat("")
+  API.sendChat("Kinda. idk. .-.")
   }
   else{}
   //Execute to turn up! \o/
