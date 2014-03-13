@@ -46,9 +46,11 @@ function callback(data) {
   //New commands right above here!
 }
   //Testing 
-/*API.on(API.USER_FAN, callback);
+API.on(API.USER_FAN, callback);
 function callback(user) {
 	if (API.USER_FAN){
+	API.on(API.CHAT){
 	API.sendChat("I am most gracious for your click of my flag @" + user.username)}
 	else {}	
-}*/
+	}
+}
