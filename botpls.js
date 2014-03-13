@@ -52,6 +52,5 @@ function callback(user) {
   API.on(API.CHAT);
   function callback(data){
   API.sendChat("I am most gracious for your click of my flag @" + user.username)}
-  else {} 
-  }
+    }
 }
