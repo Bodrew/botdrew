@@ -23,10 +23,10 @@ function callback(data) {
   }
   else{}
   //Execute to turn up! \o/
-  if (data.messgae === (".rave")){
-  API.sendChat(data.from + " gettin' turnt up!")
-  }
-  else{}
+  //if (data.messgae === (".rave")){
+  //API.sendChat(data.from + " gettin' turnt up!")
+  //}
+  //else{}
   //Beany's insult command ;3
   if (data.message === (".beany")){
   API.sendChat("Whasian! >:D")
@@ -37,7 +37,7 @@ function callback(data) {
     API.sendChat("@CookieMichal Fuck yeah man, cookies fer dayz")
   }
   else {}
-  //Q-Sick's Loves Massage
+  //Q-Sick's Love Massage
   if (data.message === (".q")){
     API.sendChat("@Q-Sick loves me, this I know. 'Cause Smodoopa tells me so!")
   }
