@@ -2,6 +2,7 @@ onLoad(alert("BodBot successfully loaded!"));
 //GO HERE TO EDIT THE BOT, THEN COPY PASTE IT BACK HERE: https://github.com/Bodrew/botdrew/edit/botpls/botpls.js
 //Copy this and paste in the Plug Console: javascript:$.getScript('https://github.com/Bodrew/botdrew/edit/botpls/botpls.js');
 API.on(API.CHAT, callback);
+API.on(API.USER_FAN, callback);
 function callback(data) {
   //Simple bot command
   if (data.message === ".bod") {
@@ -47,12 +48,7 @@ function callback(data) {
   //New commands right above here!
 }
   //Testing 
-/*API.on(API.USER_FAN, callback);
 function callback(user) {
-  if (API.USER_FAN){
-  API.on(API.CHAT);
-  function callback(data){
-  API.sendChat("I am most gracious for your click of my flag @" + user.username)}
-    }
-}
-*/
+  API.sendChat("I am most gracious for your click of my flag @" + user.username)
+  }
+
