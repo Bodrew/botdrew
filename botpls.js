@@ -45,6 +45,7 @@ function callback(data) {
   
   //New commands right above here!
 }
+API.off(API.CHAT, callback);
   //Testing 
 API.on(API.USER_FAN, callback);
 function callback(user) {
