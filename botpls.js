@@ -46,7 +46,7 @@ function msg(data) {
   //Testing auto-skip
 API.on(API.DJ_ADVANCE, moveAlong);
 function moveAlong(obj){
-  alert(obj.media);
+  //alert(obj.media);
 }
   //New commands right above here!
   //Working; Fan Command 
