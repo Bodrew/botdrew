@@ -52,5 +52,5 @@ function moveAlong(obj){
   //Working; Fan Command 
 API.on(API.USER_FAN, fanMe);
 function fan_me(user) {
-  API.sendChat("I am most gracious for your click of my flag @" + user.username)
+  API.sendChat("Dat flag click, @" + user.username + " :new_moon_with_face:")
   }
