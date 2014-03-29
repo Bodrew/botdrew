@@ -42,13 +42,13 @@ function msg(data) {
     API.sendChat("@Q-Sick loves me, this I know. 'Cause Smodoopa tells me so!")
   }
   else {}
+}
   //Testing auto-skip
 API.on(API.DJ_ADVANCE, moveAlong);
 function moveAlong(obj){
   alert(obj.media.author);
 }
   //New commands right above here!
-}
   //Working; Fan Command 
 API.on(API.USER_FAN, fanMe);
 function fan_me(user) {
