@@ -42,7 +42,3 @@ function msg(data) {
 
   //New commands right above here!
   //Working; Fan Command 
-API.on(API.USER_FAN, fanMe);
-function fanMe(user) {
-  API.sendChat("Dat flag click, @" + user.username + " :new_moon_with_face:")
-  }
