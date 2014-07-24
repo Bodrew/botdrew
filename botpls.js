@@ -3,7 +3,7 @@
 API.on(API.CHAT, msg);
 function msg(data) {
   //Simple bot command
-  if (data.message === ".bod") {
+  if (data.message === (".bod")) {
   API.sendChat('Present!');
   } 
   else {}
@@ -14,12 +14,12 @@ function msg(data) {
   else {}
   //The wake-up command
   if (data.message === (".wakeup")){
-  API.sendChat("@Bodrew Wake up, me!")
+  API.sendChat("@Bodrew Wake up, me!");
   }
   else {}
   //Expressing my love for Miss Bean
   if (data.message === (".bodhartsbeany")){
-  API.sendChat("Kinda. idk. .-.")
+  API.sendChat("Kinda. idk. .-.");
   }
   else{}
   //Execute to turn up! \o/
@@ -29,23 +29,15 @@ function msg(data) {
   //else{}
   //Beany's insult command ;3
   if (data.message === (".beany")){
-  API.sendChat("Whasian! >:D")
+  API.sendChat("Whasian! >:D");
   }
   else{}
-  //CookieMichal's CommandoWando
-  if (data.message === (".bodlovescookie")){
-    API.sendChat("@CookieMichal Fuck yeah man, cookies fer dayz")
+  
+  if (data.message === ("TIME FOR A LOTTERY! I WILL CHOOSE A WINNER IN 5 MINUTES! Type '.a' in the chat to enter!")){
+    API.sendChat('.a');
   }
-  else {}
-  //Q-Sick's Love Massage
-  if (data.message === (".q")){
-    API.sendChat("@Q-Sick loves me, this I know. 'Cause Smodoopa tells me so!")
-  }
-  else {}
 }
   //Testing auto-skip
-API.on(API.DJ_ADVANCE, moveAlong);
-function moveAlong(obj){
   //alert(obj.media);
 }
   //New commands right above here!
