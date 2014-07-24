@@ -12,4 +12,9 @@ function callback(data) {
     API.sendChat('.a');
   }
   else {}
+  
+  if (data.message === ("TIME FOR A GUESSING GAME! THE PERSON CLOSEST TO THE NUMBER I BE THINKING OF (1 - 1000) WILL BE MOVED UP IN THE WAIT LIST IN FIVE MINUTES!")){
+    API.sendChat(Math.floor(Math.random() * 1000));
+  }
+  else {}
 }
