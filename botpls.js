@@ -36,7 +36,7 @@ function msg(data) {
   if (data.message === ("TIME FOR A LOTTERY! I WILL CHOOSE A WINNER IN 5 MINUTES! Type '.a' in the chat to enter!")){
     API.sendChat('.a');
   }
-}
+
   //Testing auto-skip
   //alert(obj.media);
 
