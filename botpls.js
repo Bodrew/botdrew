@@ -3,7 +3,7 @@
 API.on(API.CHAT, callback);
 function callback(data) {
 	//Simple bot command
-  if (data.message === ".bod") {
+  if (data.message === (".bod")) {
   API.sendChat('Present!');
   } 
   else {}
@@ -22,20 +22,15 @@ function callback(data) {
   API.sendChat("And she still won't date me :expressionless:")
   }
   else{}
-	//Execute to turn up! \o/
-  if (data.messgae === (".rave")){
-  API.sendChat("@" + data.from + " gettin' turnt up!");
-  API.setVolume(30)}
-  else{}
   //Beany's insult command ;3
   if (data.message === (".beany")){
   API.sendChat("Whasian! >:D")
   }
   else{}
-  if (data.message === (".bodlovescookie")){
-  	API.sendChat("@CookieMichal Fuck yeah man, cookies fer dayz")
+  
+  if (data.message === ("TIME FOR A LOTTERY! I WILL CHOOSE A WINNER IN 5 MINUTES! Type '.a' in the chat to enter!")) {
+  	API.sendChat('.a');
   }
   else {}
-  
   //New commands right above here!
 }
