@@ -39,7 +39,7 @@ function msg(data) {
 }
   //Testing auto-skip
   //alert(obj.media);
-}
+
   //New commands right above here!
   //Working; Fan Command 
 API.on(API.USER_FAN, fanMe);
