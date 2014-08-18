@@ -17,4 +17,10 @@ function callback(data) {
     API.sendChat(Math.floor(Math.random() * 1000));
   }
   else {}
+  
+  if (data.message === ("#song")){
+    API.getMedia();
+    API.getArtist();
+    API.sendChat("The current song is " + media);
+  }
 }
