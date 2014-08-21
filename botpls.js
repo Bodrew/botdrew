@@ -4,6 +4,7 @@ API.on(API.CHAT, callback);
 function callback(data) {
   //Simple bot command
   if (data.message === (".bod")) {
+  API.moderateDeleteChat(data.cid);
   API.sendChat('Present!');
   } 
   else {}
