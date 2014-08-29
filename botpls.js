@@ -30,5 +30,5 @@ function callback(data) {
 API.on(API.ADVANCE, woot); 
 function woot(){
   $("#woot").click(); 
-  $('.is-wait').click();
+  $('#dj-button').click();
 }
