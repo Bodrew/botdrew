@@ -32,6 +32,6 @@ function woot(){
   $("#woot").click();
   $('#dj-button').click();
   $('#grab').click();
-  $('.icon icon-active-active').parent().click();
+  $('.pop-menu grab').children('.menu').children().children([0]).click();
 }
 
