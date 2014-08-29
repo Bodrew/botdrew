@@ -32,3 +32,6 @@ function woot(){
   $("#woot").click(); 
   $('#dj-button').click();
 }
+function woot(){
+  $('#grab').click();
+}
