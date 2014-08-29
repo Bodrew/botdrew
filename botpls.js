@@ -33,6 +33,6 @@ function woot(){
   $('#dj-button').click();
   $('#grab').click();
   setTimeout(function(){}, 3000);
-  $('.icon icon-active-active').click();
+  $('span').html("uw8 m8").click();
 }
 
