@@ -31,11 +31,8 @@ API.on(API.ADVANCE, woot);
 function woot(){
   $("#woot").click(); 
   $('#dj-button').click();
-}
-function woot(){
   $('#grab').click();
-  setTimeout(function(){
-    
-  }, 3000);
+  setTimeout(function(){}, 3000);
   $('.icon icon-active-active').click();
 }
+
