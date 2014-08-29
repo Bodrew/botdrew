@@ -34,4 +34,6 @@ function woot(){
 }
 function woot(){
   $('#grab').click();
+  sleep(3000);
+  $('.icon icon-active-active').click();
 }
