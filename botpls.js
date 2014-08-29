@@ -30,9 +30,12 @@ function callback(data) {
 API.on(API.ADVANCE, woot); 
 function woot(){
   $("#woot").click(); 
+  setTimeout(function(){alert('gg')}, 3000);
   $('#dj-button').click();
+  setTimeout(function(){alert('gg')}, 3000);
   $('#grab').click();
+  setTimeout(function(){alert('gg')}, 3000);
+  $('.icon icon-active-active').click();
   setTimeout(function(){}, 3000);
-  $('span').html("uw8 m8").click();
 }
 
