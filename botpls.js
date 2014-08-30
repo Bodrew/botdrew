@@ -31,7 +31,6 @@ API.on(API.ADVANCE, woot);
 function woot(){
   $("#woot").click();
   $('#dj-button').click();
-  //$('#grab').click();
-  //$('.pop-menu grab').children('.menu').children().children([0]).click();
+  setTimeout(function() {$('.button cancel')},5000);
 }
 
