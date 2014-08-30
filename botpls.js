@@ -31,11 +31,8 @@ API.on(API.ADVANCE, woot);
 function woot(){
   $("#woot").click();
   if($('#dj-button') = $('.is-leave')){
-    
-    
-  
-  
-  $('#dj-button').click();
+    $('#dj-button').click();
+  };
   $('#grab').click();
   //$('.pop-menu grab').children('.menu').children().children([0]).click();
 }
