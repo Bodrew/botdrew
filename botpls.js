@@ -30,8 +30,13 @@ function callback(data) {
 API.on(API.ADVANCE, woot); 
 function woot(){
   $("#woot").click();
+  if($('#dj-button') = $('.is-leave')){
+    
+    
+  
+  
   $('#dj-button').click();
   $('#grab').click();
-  $('.pop-menu grab').children('.menu').children().children([0]).click();
+  //$('.pop-menu grab').children('.menu').children().children([0]).click();
 }
 
